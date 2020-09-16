@@ -5,6 +5,7 @@ const messageInput = document.getElementById("message-input");
 
 const name = prompt("What is your name?");
 appendMessage("You joined");
+appendMessage("Seth Collie : Hi, are u available to do this job?");
 socket.emit("new-user", name);
 
 socket.on("chat-message", (data) => {
