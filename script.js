@@ -1,4 +1,4 @@
-const socket = io("http://34.126.102.181:3000");
+const socket = io("http://34.87.43.247:3000");
 const messageContainer = document.getElementById("message-container");
 const messageForm = document.getElementById("send-container");
 const messageInput = document.getElementById("message-input");
